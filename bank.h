@@ -26,10 +26,10 @@ class BANK{
         
         //dynamic card_list
         map<char, INFO_CARD> card_list = {
-                                    {'A', INFO_CARD(0.03, 0, 0)},
-                                    {'B', INFO_CARD(0.07, 60, 0.01)},
-                                    {'C', INFO_CARD(0.09, 90, 0.03)},
-                                    {'D', INFO_CARD(0.11, 150, 0.05)}
+                                    {'A', INFO_CARD(0.03, 5, 0)},
+                                    {'B', INFO_CARD(0.07, 14, 0.01)},
+                                    {'C', INFO_CARD(0.09, 20, 0.03)},
+                                    {'D', INFO_CARD(0.11, 30, 0.05)}
                                 };
 
     public:

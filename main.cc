@@ -23,10 +23,10 @@ int main()
     USER user = USER();
     TRANSACTION transaction = TRANSACTION();
     BANK bank = BANK();
-    cout<<"START MONEY OF USER:"<<user.get_money()<<endl;
+    cout<<"START MONEY OF USER:"<<user.get_money_ATM()<<endl;
     //transaction.print_moneyOfMonth();
     //cout<<"adj transaction!"<<endl;
-    transaction.adjTransaction(user.get_money());
+    transaction.adjTransaction(user.get_money_ATM());
     transaction.print_moneyOfMonth();
     bank.print_bank_info();
     cout<<"DONE";
